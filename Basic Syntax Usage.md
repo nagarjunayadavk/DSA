@@ -168,3 +168,38 @@ ArrayList.contains() → O(n)
 HashSet → O(n) time
 
 ArrayList → O(n²) time
+
+
+## Character Methods Cheat Sheet
+
+| Method                      | Purpose                        |
+| --------------------------- | ------------------------------ |
+| `s.charAt(i)`               | Character at index             |
+| `s.toCharArray()`           | Convert string to `char[]`     |
+| `Character.isLetter(c)`     | Letter?                        |
+| `Character.isDigit(c)`      | Digit?                         |
+| `Character.isUpperCase(c)`  | Uppercase?                     |
+| `Character.isLowerCase(c)`  | Lowercase?                     |
+| `Character.isWhitespace(c)` | Space/tab/newline?             |
+| `Character.toUpperCase(c)`  | Convert to uppercase           |
+| `Character.toLowerCase(c)`  | Convert to lowercase           |
+| `(int)c`                    | Character's numeric value      |
+| `c - 'a'`                   | Alphabet index (0–25)          |
+| `c - '0'`                   | Digit value (e.g. `'7'` → `7`) |
+
+## HashMap Methods Cheat Sheet
+
+
+| Method                       | Purpose                   |
+| ---------------------------- | ------------------------- |
+| `put(key, value)`            | Add/update                |
+| `get(key)`                   | Get value                 |
+| `getOrDefault(key, default)` | Get value or default      |
+| `containsKey(key)`           | Check key exists          |
+| `remove(key)`                | Delete key                |
+| `isEmpty()`                  | Check empty               |
+| `size()`                     | Number of key-value pairs |
+| `keySet()`                   | All keys                  |
+| `values()`                   | All values                |
+| `entrySet()`                 | Key-value pairs           |
+
