@@ -203,3 +203,40 @@ ArrayList → O(n²) time
 | `values()`                   | All values                |
 | `entrySet()`                 | Key-value pairs           |
 
+
+## Examples of Linear Collections
+
+1. **Array**
+
+   * Elements are stored in contiguous memory.
+   * Fast access using an index.
+   * Example: `[10, 20, 30, 40]`
+
+2. **Linked List**
+
+   * Each element (node) stores data and a reference to the next node.
+   * Example:
+
+     ```
+     10 → 20 → 30 → 40 → NULL
+     ```
+
+3. **Stack**
+
+   * Follows **LIFO (Last In, First Out)**.
+   * Example: Stack of plates.
+
+4. **Queue**
+
+   * Follows **FIFO (First In, First Out)**.
+   * Example: People waiting in a line.
+
+## Linear vs. Non-Linear Collection
+
+| Linear Collection                                           | Non-Linear Collection                                 |
+| ----------------------------------------------------------- | ----------------------------------------------------- |
+| Elements are arranged sequentially.                         | Elements are arranged hierarchically or as a network. |
+| Each element has at most one predecessor and one successor. | A node can have multiple connections.                 |
+| Easier to traverse sequentially.                            | Traversal is more complex.                            |
+| Examples: Array, Linked List, Stack, Queue                  | Examples: Tree, Graph                                 |
+
