@@ -25,6 +25,51 @@ String line=sc.nextLine();
 char ch=sc.next().charAt(0);
 boolean b=sc.nextBoolean();
 ```
+-----
+```
+Scanner sc = new Scanner(System.in);
+
+// Integer
+int x = sc.nextInt();
+
+// Long
+long l = sc.nextLong();
+
+// Double
+double d = sc.nextDouble();
+
+// String (one word)
+String s = sc.next();
+
+// Full line
+String line = sc.nextLine();
+
+// Character
+char ch = sc.next().charAt(0);
+
+// Integer array
+int[] arr = new int[n];
+for(int i = 0; i < n; i++)
+    arr[i] = sc.nextInt();
+
+// String array
+String[] str = new String[n];
+for(int i = 0; i < n; i++)
+    str[i] = sc.next();
+
+// ArrayList<Integer>
+ArrayList<Integer> list = new ArrayList<>();
+for(int i = 0; i < n; i++)
+    list.add(sc.nextInt());
+
+// ArrayList<String>
+ArrayList<String> words = new ArrayList<>();
+for(int i = 0; i < n; i++)
+    words.add(sc.next());
+
+// Character array
+char[] chars = sc.next().toCharArray();
+```
 
 ### Read Array
 
